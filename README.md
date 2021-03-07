@@ -8,7 +8,7 @@ A Python program that sends notifications to your email and phone number
 
 1. Clone repository
     ```bash
-    git clone https://github.com/joiellantero/notification.git
+    $ git clone https://github.com/joiellantero/notification.git
     ```
 
 2. Navigate to the project directory
@@ -16,7 +16,7 @@ A Python program that sends notifications to your email and phone number
 
 3. Setup your environment variables in ~/.bash_profile 
    ```bash
-    vim ~/.bash_profile
+    $ vim ~/.bash_profile
     ```
    > Click [here](#-alternative) if you don't have bash.
 
@@ -27,13 +27,13 @@ A Python program that sends notifications to your email and phone number
     export EMAIL_CLIENT="youremail@email.com"
     export EMAIL_CLIENT_APP_PASSWORD="yourcomplexpassword"
     ```
-   > You may need to setup your email to obtain your app password.
+    > You may need to setup your email to obtain your app password.
 
     > Click [here](https://support.google.com/accounts/answer/185833?hl=en) to learn how to obtain your app password.
 
 5. Test the program
     ```bash
-    python3 notification.py
+    $ python3 notification.py
     ```
 
 ## 🛠 Alternative 
@@ -41,8 +41,8 @@ A Python program that sends notifications to your email and phone number
 - Using `.env` instead of `~/.bash_profile`
     1. Create a `.env` file
         ```bash
-        touch .env
-        vim .env
+        $ touch .env
+        $ vim .env
         ```
 
     2. Enter your credentials in the `.env` file
@@ -57,7 +57,7 @@ A Python program that sends notifications to your email and phone number
 
     3. Run `notification2.py` since this is setup to read the `.env`
         ```bash
-        python3 notification2.py
+        $ python3 notification2.py
         ```
 
 ## 👨‍💻 Author
