@@ -18,7 +18,7 @@ A Python program that sends notifications to your email and phone number
    ```bash
     vim ~/.bash_profile
     ```
-   > Click [here](#🛠-Alternative ) if you don't have bash.
+   > Click [here](#-alternative) if you don't have bash.
 
    > In this step you can open bash_profile using your favorite code editor by replacing `vim` with `code` (VSCode) or `atom` (Atom)
 
