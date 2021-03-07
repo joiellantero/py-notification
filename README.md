@@ -61,6 +61,14 @@ A Python program that sends notifications to your email and phone number
         $ python3 notification2.py
         ```
 
+## 📱 Mobile Notifications
+
+1. Replace the email address passed in the function call
+    ```python
+    email_alert("this is my subject", "1234567890@txt.att.net", "this is my body")
+    ```
+    > The SMS gateway domain depends on your carrier. Visit this [link](https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/) to learn more.
+
 ## 👨‍💻 Author
 
 - [Joie Llantero](https://joiellantero.codes/)
