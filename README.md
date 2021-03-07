@@ -7,7 +7,7 @@ A Python program that sends notifications to your email and phone number
 ## 🚀 Quickstart
 
 1. Clone repository
-    ```bash
+    ```shell
     $ git clone https://github.com/joiellantero/notification.git
     ```
 
@@ -15,7 +15,7 @@ A Python program that sends notifications to your email and phone number
 
 
 3. Setup your environment variables in ~/.bash_profile 
-   ```bash
+   ```shell
     $ vim ~/.bash_profile
     ```
    > Click [here](#-alternative) if you don't have bash.
@@ -23,14 +23,14 @@ A Python program that sends notifications to your email and phone number
    > In this step you can open bash_profile using your favorite code editor by replacing `vim` with `code` (VSCode), `atom` (Atom), etc.
 
 4. Add your email credentials
-   ```bash
+   ```shell
     export EMAIL_CLIENT="youremail@email.com"
     export EMAIL_CLIENT_APP_PASSWORD="yourcomplexpassword"
     ```
     > Don't forget to setup your email to obtain your app password. Click [here](https://support.google.com/accounts/answer/185833?hl=en) to learn how to obtain your app password.
 
 5. Run the program
-    ```bash
+    ```shell
     $ python3 notification.py
     ```
 
@@ -38,21 +38,26 @@ A Python program that sends notifications to your email and phone number
 
 - Using `.env` instead of `~/.bash_profile`
     1. Create a `.env` file
-        ```bash
+        ```shell
         $ touch .env
         $ vim .env
         ```
 
     2. Enter your credentials in the `.env` file
-       ```bash
+       ```shell
         export EMAIL_CLIENT="youremail@email.com"
         export EMAIL_CLIENT_APP_PASSWORD="yourcomplexpassword"
         ```
 
         > You may need to setup your email to obtain your app password. Click [here](https://support.google.com/accounts/answer/185833?hl=en) to learn how to obtain your app password.
 
-    3. Run `notification2.py` since this is setup to read the `.env`
-        ```bash
+    3. Install the dependency
+        ```shell
+        $ pip install python-dotenv
+        ```
+
+    4. Run `notification2.py` since this is setup to read the `.env`
+        ```shell
         $ python3 notification2.py
         ```
 
