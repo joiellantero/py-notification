@@ -33,6 +33,7 @@ A Python program that sends notifications to your email and phone number
     ```shell
     $ python3 notification.py
     ```
+6. Star this repo if you like it!
 
 ## 🛠 Alternative 
 
