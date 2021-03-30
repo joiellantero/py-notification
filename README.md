@@ -57,7 +57,7 @@ A Python program that sends notifications to your email and phone number
         $ pip install python-dotenv
         ```
 
-    4. Run `notification2.py` since this is setup to read the `.env`
+    4. Run `notification2.py` since this is set up to read the `.env`
         ```shell
         $ python3 notification2.py
         ```
