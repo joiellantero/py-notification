@@ -72,7 +72,7 @@ A Python program that sends notifications to your email and phone number
 
 ## 👨‍💻 Author
 
-- [Joie Llantero](https://joiellantero.codes/)
+- [Joie Llantero](https://github.com/joiellantero)
 
 
 ## 📄 License 
